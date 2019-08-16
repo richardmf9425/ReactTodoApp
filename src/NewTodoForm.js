@@ -26,13 +26,13 @@ class NewTodoForm extends Component {
 				<label htmlFor="task">New Todo</label>
 				<input
 					type="text"
-					placeholder="New Todo"
+					placeholder="New Task..."
 					id="task"
 					name="task"
 					value={this.state.task}
 					onChange={this.handleChange}
 				/>
-				<button>Add Todo</button>
+				<button>Add Task</button>
 			</form>
 		);
 	}
